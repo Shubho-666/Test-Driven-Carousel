@@ -1,6 +1,6 @@
 import React from "react";
-import CarouselButton from "../CarouselButton/CarouselButton";
-import CarouselSlide from "../CarouselSlide/CarouselSlide";
+import CarouselButton from "../CarouselButton/CarouselButton.js";
+import CarouselSlide from "../CarouselSlide/CarouselSlide.jsx";
 
 class Carousel extends React.PureComponent {
     state = {

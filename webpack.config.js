@@ -1,14 +1,18 @@
-const path = require('path');
+
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     mode: 'development',
     entry: {
-        carousel: './src/Carousel/Carousel.jsx'
+        carousel: './src/Carousel/Carousel.jsx',
+        example: './example/index.js'
     },
-    output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
-    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Carousel Example',
+            chunks: ['example']
+        })
+    ],
     module: {
         rules: [
             {

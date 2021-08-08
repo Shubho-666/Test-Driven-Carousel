@@ -7,6 +7,9 @@ module.exports = {
         carousel: './src/Carousel/Carousel.jsx',
         example: './example/index.js'
     },
+    devServer: {
+        contentBase: './dist'
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Carousel Example',

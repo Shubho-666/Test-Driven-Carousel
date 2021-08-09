@@ -6,7 +6,7 @@ const CarouselSlide = ({imgUrl, description, attribution, ...rest}) =>
     <figcaption>
         <strong>{description}</strong>
         {attribution}
-    </figcaption> 
+    </figcaption>  
 </figure>;
 
 export default CarouselSlide;

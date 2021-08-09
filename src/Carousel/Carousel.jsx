@@ -7,7 +7,7 @@ class Carousel extends React.PureComponent {
         slideIndex: 0
     }
 
-    handlePrevClick = () => { 
+    handlePrevClick = () => {  
         const { slides } = this.props;
         this.setState(({ slideIndex }) => ({ slideIndex: (slideIndex + slides.length - 1) % slides.length }));
     }

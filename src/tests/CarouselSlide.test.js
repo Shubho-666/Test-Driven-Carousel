@@ -15,7 +15,7 @@ describe('CarouselSlide', () => {
     it('renders an <img> and <figcaption> as children', () => {
         expect(wrapper.childAt(0).type()).toBe('img')
         expect(wrapper.childAt(1).type()).toBe('figcaption')
-    })    
+    })     
 
     it('passes "imgUrl" through the <img>', () => {
         const imgUrl = 'https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fimgcomfort.com%2Fas%2Fabout%2F&psig=AOvVaw308Yq-v7H0VYCCmWkeRYZC&ust=1628369297976000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC4x8GinfICFQAAAAAdAAAAABAD'

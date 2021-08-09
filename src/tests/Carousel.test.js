@@ -85,7 +85,7 @@ describe('Carousel', () => {
         expect(slideProps).toEqual(slides[0]);
         wrapper.setState({ slideIndex: 1 });
         slideProps = wrapper.find(CarouselSlide).props();
-        expect(slideProps).toEqual(slides[1]);
+        expect(slideProps).toEqual(slides[1]); 
     })
 
 })

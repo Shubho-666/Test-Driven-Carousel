@@ -6,3 +6,4 @@ This project is built using Webpack, Babel configuration (i did not use npx crea
 
 the test files contain all the tests that is used for this project. 
 
+[![Build Status](https://travis-ci.com/Shubho-666/Test-Driven-Carousel.svg?branch=master)](https://travis-ci.com/Shubho-666/Test-Driven-Carousel)
